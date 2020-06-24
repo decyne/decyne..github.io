@@ -1,7 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Automatically overlay a hex grid over a map in LaTeX
 ---
+
+I love LaTeX. For those who don't know [LaTeX](https://www.latex-project.org/) is a typesetting language which produces documents, similar to Microsoft Word. The main difference is that whereas Word is a wysiwyg, in LaTex you use computer code to dicate how you want the document formatted, and LaTeX reads that code and spits out a nice PDF document. The main advantage of LaTeX is that it give a lot finer control over how you format documents.
+
+I think LaTex has a lot of potential for formatting D&D adventure modules. Fortunately the excellent [DnD5e](https://github.com/rpgtex/DND-5e-LaTeX-Template) and [Classic DnD](https://github.com/slithy/rpg_module) templates already exist. However I've been thinking about the using LaTex to automatically overlay a hex grid over a map, to easily create a Hex Map for hexcrawling.
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
@@ -71,3 +75,5 @@ Had to add hexdim to location points to scale with hex sizes
 ```
 
 Needed to offset all hexagons on x axis so it didn't hang off the edge of the graph by adding +\hexdim/2 to the X co-ord
+
+Main downside is that content might not line up nicely in hexes, like it would if you planned it.
