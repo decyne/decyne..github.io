@@ -76,4 +76,8 @@ Had to add hexdim to location points to scale with hex sizes
 
 Needed to offset all hexagons on x axis so it didn't hang off the edge of the graph by adding +\hexdim/2 to the X co-ord
 
-Main downside is that content might not line up nicely in hexes, like it would if you planned it.
+This is a useful website: https://www.redblobgames.com/grids/hexagons/
+
+Alternatively could have written code in python to generate text for each tikz hexagon which is then plopped in the LaTeX document.
+
+Main downside is that content might not line up nicely in hexes, like it would if you planned it. However this method has the benefit of quickly being able to make a hexmap out of any existing map. In addition you can give the un-hexed map to your players for them to look at!
